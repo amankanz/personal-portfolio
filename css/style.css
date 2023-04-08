@@ -782,59 +782,14 @@ main {
   background: var(--bgColor);
   padding: 70px 30px;
 }
-#con .service_row {
-  margin-top: 50px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-}
-#conclusion .service_row .service_box {
-  display: flex;
-  gap: 20px;
-}
-#conclusion .service_row .service_box .icon i {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  border: 2px solid var(--themeColor);
-  font-size: 22px;
-  line-height: 46px;
-  background: var(--themeColor);
-  color: var(--bgColor);
-  transition: 0.7s;
-  text-align: center;
-}
-#conclusion .service_row .service_box:hover .icon i {
-  color: var(--textColor);
-  background: var(--bgColor);
-}
-#conclusion .service_row .service_box .serv_info h4{
-  color: var(--sideBGColor);
-  font-size: 20px;
-  font-weight: 600;
-}
-#conclusion .service_row .service_box .serv_info h4 + p {
-  color: var(--textColor);
-  font-size: 14px;
-  font-weight: 500;
-}
+
 /*== Mobile View ==*/
 @media(max-width: 910px) {
   #conclusion {
     padding: 50px 15px;
   }
-  #conclusion .service_row {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
 }
 
-@media(max-width: 485px) {
-  #conclusion .service_row {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
-  }
-}
 /*== END of Service section == */
 
 /*< --------------------------------------------------------------- >*/

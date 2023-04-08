@@ -712,12 +712,12 @@ main {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  /* transform: scale(0); */
+  transform: scale(0);
   transition: 0.4s;
   border-radius: 10px;
   visibility: hidden;
 }
-#portfolio .port_row .port_item .port_info {
+#portfolio .port_row .port_item:hover .port_info {
   transform: scale(1);
   visibility: visible;
 }

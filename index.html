@@ -7,8 +7,646 @@
   <meta name="description" content="Personal Portfolio Website">
   <meta name="author" content="Ziha Amani">
   <title>Personal Portfolio Website</title>
+  <!--FontAwesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--== CSS ==-->
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+  <header><!--== Header start ==-->
+    <!--profile-->
+    <div class="profile">
+      <img src="./img/ziha.jpg" alt="" class="profile_img">
+      <h1>Ziha Amani</h1>
+      <div class="social_icons">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/amankanz" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://twitter.com/home?lang=en" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+    </div><!--End of profile-->
+
+    <!--== Navbar ==-->
+    <nav>
+      <ul>
+        <li><a href="#home" class="active"><i class="fa-solid fa-house"></i>Home</a></li>
+        <li><a href="#about"><i class="fa-solid fa-user"></i>About Me</a></li>
+        <li><a href="#portfolio"><i class="fa-solid fa-briefcase"></i>Portfolio</a></li>
+        <li><a href="#service"><i class="fa-solid fa-server"></i>Services</a></li>
+        <li><a href="#contact"><i class="fa-solid fa-envelope"></i>Contact</a></li>
+      </ul>
+    </nav><!--== End of Nabar-->
+
+    <!--== Footer ==-->
+    <div class="footer">
+      <p>&copy; Copyright 2023 <br>Coded By <a href="#">Ziha Amani</a></p>
+    </div>
+    <!--== End of Footer ==-->
+
+    
+  </header> 
   
+    <!--== MObile Nav Toggle ==-->
+    <i class="fa-solid fa-bars" id="menuBtn"></i>
+    <!--== End of MObile Nav Toggle ==-->
+
+  <!--== Header End ==-->
+
+  
+  <!--========= ALL BODY CONTENT ============-->
+  <main>
+    <!--== HOme section start ==-->
+    <section id="home">
+      <div class="home_row">
+        <h1>
+          Hi there! <br> This is Ziha Amani<span>.</span>
+        </h1>
+        <p>
+          i'm a <span class="auto_input"></span>
+        </p>
+      </div>
+    </section>
+    <!--== HOme section End ==-->
+
+
+    <!--== About section Start ==-->
+    <section id="about">
+      <h1 class="sub_heading">
+        About Me
+      </h1>
+      <div class="divider"></div>
+      <p class="sub_para">
+        I'm a self-taught front-end web developer with a passion for learning and problem-solving. I may not have a traditional background in software engineering, but I believe that my unique journey has given me a fresh perspective and a hunger for knowledge that drives me to constantly improve.
+      </p>
+
+      <p class="sub_para">
+        I discovered my love for coding in 2022 when I decided to pivot from my previous field of procurement and logistics management. Although I faced financial constraints that prevented me from completing my degree, I refused to give up on my dreams of a fulfilling career. I immersed myself in the world of front-end web development, reading books and watching tutorials online, and practicing my skills through personal projects.
+      </p>
+
+      <div class="about_col">
+        <!--img_col-->
+        <img src="./img/ziha.jpg" alt="" class="profile_img">
+
+        <!--Information_col-->
+        <div class="info_col">
+          <h2>Front-End Developer!</h2>
+          <p class="sub_para">
+            One of the things that I love most about coding is the constant challenge it presents. I embrace failure as an opportunity to learn and grow, and I'm always looking for new ways to expand my knowledge and push my boundaries. I'm excited to see where my journey in front-end development will take me, and I'm eager to contribute my skills to a team that shares my passion for innovation and excellence.
+          </p>
+          <div class="icon_list_col">
+
+            <!--Left-side list-->
+            <div class="icon_list">
+              <ul>
+                <li><i class="fa-solid fa-angle-right"></i> <strong>Birthday:</strong> <span>15 Oct 2000</span></li>
+                <li><i class="fa-solid fa-angle-right"></i> <strong>Website:</strong> <span>www.zihacorp.com</span></li>
+                <li><i class="fa-solid fa-angle-right"></i> <strong>Phone:</strong> <span>+256-785102650</span></li>
+                <li><i class="fa-solid fa-angle-right"></i> <strong>City:</strong> <span>KAMPALA, Mbarara</span></li>
+              </ul>
+            </div><!--End of left-side list-->
+
+            <!--Right-side list-->
+            <div class="icon_list">
+              <ul>
+                <li><i class="fa-solid fa-angle-right"></i> <strong>Age:</strong> <span>23</span></li>
+                <li><i class="fa-solid fa-angle-right"></i> <strong>Degree:</strong> <span>Bachelor's degree</span></li>
+                <li><i class="fa-solid fa-angle-right"></i> <strong>Email:</strong> <span>zihalirwa.amani02@gmail.com</span></li>
+                <li><i class="fa-solid fa-angle-right"></i> <strong>Employment Status:</strong> <span>Searching</span></li>
+              </ul>
+            </div><!--End of left-side list-->
+
+          </div><!--End of icon_list_col-->
+        </div>
+      </div><!--End of about_col-->
+
+    </section>
+    <!--== About section End ==-->
+    <!------------------------------------------------------------------>
+
+    <!------------------------------------------------------->
+
+    <!--== Skills Section Start-->
+    <section id="skill">
+      <h1 class="sub_heading">
+        Skills
+      </h1>
+      <div class="divider"></div>
+      <p class="sub_para">
+        In terms of technical skills, I have a solid foundation in HTML, CSS, and JavaScript. I've spent several weeks studying each of these technologies, learning their syntax and best practices for creating responsive, user-friendly web pages. In addition to learning these languages individually, I have also worked on projects that incorporate all three, gaining a deeper understanding of how they can work together to create dynamic web content.
+      </p>
+
+      <p class="sub_para">
+        Moving forward, I am eager to continue expanding my skill set. My study plan involves learning intermediate JavaScript concepts such as object-oriented programming, closures, and asynchronous code. Additionally, I plan to explore popular frontend frameworks such as React, Vue.js, and Angular, and use them to build larger, more complex web applications. As I continue to learn, I will challenge myself by taking on more ambitious projects, pushing my boundaries and refining my skills.
+      </p>
+
+      <div class="skill_row">
+        <!--Skill 1-->
+        <div class="skill_box">
+          <div class="skill_info">
+            <h2>HTML</h2>
+            <h2>95%</h2>
+          </div>
+          <div class="skill_outter_line">
+            <div class="skill_inner_line" style="width: 95%;">
+
+            </div>
+          </div>
+        </div>
+
+        <!--Skill 2-->
+        <div class="skill_box">
+          <div class="skill_info">
+            <h2>CSS</h2>
+            <h2>85%</h2>
+          </div>
+          <div class="skill_outter_line">
+            <div class="skill_inner_line" style="width: 85%;">
+              
+            </div>
+          </div>
+        </div>
+
+        <!--Skill 3-->
+        <div class="skill_box">
+          <div class="skill_info">
+            <h2>JavaScript</h2>
+            <h2>75%</h2>
+          </div>
+          <div class="skill_outter_line">
+            <div class="skill_inner_line" style="width: 75%;">
+              
+            </div>
+          </div>
+        </div>
+
+        <!--Skill 4-->
+        <div class="skill_box">
+          <div class="skill_info">
+            <h2>Web Designing</h2>
+            <h2>65%</h2>
+          </div>
+          <div class="skill_outter_line">
+            <div class="skill_inner_line" style="width: 65%;">
+              
+            </div>
+          </div>
+        </div>
+
+        <!--Skill 5-->
+        <div class="skill_box">
+          <div class="skill_info">
+            <h2>WordPress</h2>
+            <h2>95%</h2>
+          </div>
+          <div class="skill_outter_line">
+            <div class="skill_inner_line" style="width: 95%;">
+              
+            </div>
+          </div>
+        </div>
+      </div><!--End of skill row-->
+    </section>
+    <!--== END of Skills Section-->
+    <!--------------------------------------------------------->
+
+    <!--== START OF Resume section ==-->
+    <section id="resume">
+      <h1 class="sub_heading">
+        Resume
+      </h1>
+
+      <div class="divider"></div>
+
+      <p class="sub_para">
+        As a self-taught front-end web developer with a passion for creating beautiful and engaging user experiences, my goal is to secure a position that will allow me to continue learning and growing in this field while contributing to the success of an innovative and dynamic organization.
+      </p>
+
+      <div class="resume_row">
+
+        <!--Left Col-->
+        <div class="resume_cols">
+          <h2>Summary</h2>
+
+          <div class="my_info">
+            <h3>Ziha Amani</h3>
+            <p>
+              Self-taught front-end web developer with a passion for creating beautiful and engaging user experiences. Proficient in HTML, CSS, and JavaScript, with familiarity in front-end frameworks. No professional experience, but completed multiple personal projects and participated in coding challenges. Incomplete bachelor's degree in procurement and logistic management. Continuously learning and pursuing online certifications.
+            </p>
+
+            <ul>
+              <li>
+                Mbarara, Mankenke opposite Army Baracks
+              </li>
+              <li>(256) 785-102650</li>
+              <li>zihalirwa.amani02@gmail.com</li>
+            </ul>
+
+          </div><!--End of my_info-->
+
+          <h2>Education</h2>
+          <div class="my_education">
+            <h3>
+              Bachelor's Degree in Procurement & Logistic Management
+            </h3>
+            <span class="sp_box">
+              2018-2022
+            </span>
+            <p>
+              Intertional University of East-Africa, KAMPALA, Uganda
+            </p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat asperiores ipsa reiciendis ab saepe rerum quo earum eius eaque consequatur?
+            </p>
+          </div>
+
+
+
+        </div><!---End of resume_cols Left-->
+
+        <!--Right Col-->
+        <div class="resume_cols">
+          <h2>
+            Proeffesional Experience
+          </h2>
+
+          <div class="pro_exp">
+            <h3>JUNIOR Front-End Developer</h3>
+            <span class="sp_box">2021-Present</span>
+            <p>
+              KAMPALA, Mbarara
+            </p>
+
+            <ul>
+              <li>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate pariatur quam praesentium?
+              </li>
+              <li>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate pariatur quam praesentium?
+              </li>
+              <li>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate pariatur quam praesentium?
+              </li>
+            </ul>
+            
+          </div><!--End of pro_exp-->
+
+          <div class="pro_exp">
+            <h3>JUNIOR Front-End Developer</h3>
+            <span class="sp_box">2021-2022</span>
+            <p>
+              KAMPALA, Mbarara
+            </p>
+
+            <ul>
+              <li>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate pariatur quam praesentium?
+              </li>
+              <li>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate pariatur quam praesentium?
+              </li>
+              <li>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate pariatur quam praesentium?
+              </li>
+            </ul>
+
+          </div><!--End of 2nd pro_exp-->
+          
+
+        </div><!--End of resume_cols Right-->
+
+
+      </div><!--End of resume_row-->
+    </section>
+    <!--== END OF Resume section ==-->
+
+    <!---------------------------------------------------------------------------->
+
+    <!-- == START of Portfolio section == -->
+    <section id="portfolio">
+
+      <h1 class="sub_heading">
+        Portfolio
+      </h1>
+      <div class="divider"></div>
+      <p class="sub_para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta porro adipisci aspernatur accusantium nemo neque totam molestiae illum corrupti excepturi.
+      </p>
+
+      <div class="port_row">
+
+        <!-- Portfolio item-1 -->
+        <!-- Hover on port_item -->
+        <div class="port_item">
+          <div class="port_img">
+            <img src="./img/img-1.png" alt="">
+          </div>
+          <div class="port_info">
+            <h4>WordPress</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, dicta!
+            </p>
+            <a href="#">
+              <i class="fa-solid fa-up-right-from-square"></i>
+            </a>
+          </div>
+        </div><!-- End of portfolio item-1 -->
+
+        <!-- Portfolio item-2 -->
+        <div class="port_item">
+          <div class="port_img">
+            <img src="./img/img-1.png" alt="">
+          </div>
+          <div class="port_info">
+            <h4>WordPress</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, dicta!
+            </p>
+            <a href="#">
+              <i class="fa-solid fa-up-right-from-square"></i>
+            </a>
+          </div>
+        </div><!-- End of portfolio item-2 -->
+
+        <!-- Portfolio item-3 -->
+        <div class="port_item">
+          <div class="port_img">
+            <img src="./img/img-1.png" alt="">
+          </div>
+          <div class="port_info">
+            <h4>WordPress</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, dicta!
+            </p>
+            <a href="#">
+              <i class="fa-solid fa-up-right-from-square"></i>
+            </a>
+          </div>
+        </div><!-- End of portfolio item-3 -->
+
+        <!-- Portfolio item-4 -->
+        <div class="port_item">
+          <div class="port_img">
+            <img src="./img/img-1.png" alt="">
+          </div>
+          <div class="port_info">
+            <h4>WordPress</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, dicta!
+            </p>
+            <a href="#">
+              <i class="fa-solid fa-up-right-from-square"></i>
+            </a>
+          </div>
+        </div><!-- End of portfolio item-4 -->
+
+        <!-- Portfolio item-5 -->
+        <div class="port_item">
+          <div class="port_img">
+            <img src="./img/img-1.png" alt="">
+          </div>
+          <div class="port_info">
+            <h4>WordPress</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, dicta!
+            </p>
+            <a href="#">
+              <i class="fa-solid fa-up-right-from-square"></i>
+            </a>
+          </div>
+        </div><!-- End of portfolio item-5 -->
+
+        <!-- Portfolio item-6 -->
+        <div class="port_item">
+          <div class="port_img">
+            <img src="./img/img-1.png" alt="">
+          </div>
+          <div class="port_info">
+            <h4>WordPress</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, dicta!
+            </p>
+            <a href="#">
+              <i class="fa-solid fa-up-right-from-square"></i>
+            </a>
+          </div>
+        </div><!-- End of portfolio item-6 -->
+      </div><!--End of port_row-->
+
+    </section>
+    <!-- == END of Portfolio section == -->
+
+    <!-- ------------------------------------------------------ -->
+
+    <!-- == START of Service section == -->
+    <section id="service">
+
+      <h1 class="sub_heading">
+        Services
+      </h1>
+      <div class="divider"></div>
+      <p class="sub_para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ratione aliquid veniam facilis deleniti vel voluptas molestiae molestias facere consequuntur. Quia dignissimos odio enim ut.
+      </p>
+
+      <div class="service_row">
+
+        <!-- service-1 -->
+        <div class="service_box">
+          <div class="icon">
+            <i class="fa-solid fa-briefcase"></i>
+          </div>
+          <div class="serv_info">
+            <h4>Lorem, ipsum.</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, ratione! 
+            </p>
+          </div>
+        </div><!-- End of service-1 -->
+
+        <!-- service-2 -->
+        <div class="service_box">
+          <div class="icon">
+            <i class="fa-solid fa-list-check"></i>
+          </div>
+          <div class="serv_info">
+            <h4>Lorem, ipsum.</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, ratione! 
+            </p>
+          </div>
+        </div><!-- End of service-2 -->
+
+        <!-- service-3 -->
+        <div class="service_box">
+          <div class="icon">
+            <i class="fa-solid fa-chart-bar"></i>
+          </div>
+          <div class="serv_info">
+            <h4>Lorem, ipsum.</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, ratione! 
+            </p>
+          </div>
+        </div><!-- End of service-3 -->
+
+        <!-- service-4 -->
+        <div class="service_box">
+          <div class="icon">
+            <i class="fa-solid fa-binoculars"></i>
+          </div>
+          <div class="serv_info">
+            <h4>Lorem, ipsum.</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, ratione! 
+            </p>
+          </div>
+        </div><!-- End of service-4 -->
+
+        <!-- service-5 -->
+        <div class="service_box">
+          <div class="icon">
+            <i class="fa-solid fa-sun"></i>
+          </div>
+          <div class="serv_info">
+            <h4>Lorem, ipsum.</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, ratione! 
+            </p>
+          </div>
+        </div><!-- End of service-5 -->
+
+        <!-- service-6 -->
+        <div class="service_box">
+          <div class="icon">
+            <i class="fa-brands fa-slack"></i>
+          </div>
+          <div class="serv_info">
+            <h4>Lorem, ipsum.</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, ratione! 
+            </p>
+          </div>
+        </div><!-- End of service-6 -->
+
+      </div><!-- End of service_row -->
+
+    </section>
+    <!-- == END of Service section == -->
+    <!-- -------------------------------------------------------- -->
+
+    <!--== START of Contact section ==-->
+    <section id="contact">
+      <h1 class="sub_heading">
+        Contact
+      </h1>
+      <div class="divider"></div>
+      <p class="sub_para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, doloremque. Necessitatibus natus ratione quis saepe!
+      </p>
+
+      <div class="contact_row">
+
+        <!-- Left Col-->
+        <div class="contact_left">
+
+          <!-- Email Box -->
+          <div class="icon_box">
+
+            <div class="icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="info">
+              <h4>Email:</h4>
+              <p>
+                zihalirwa.amani02@gmail.com
+              </p>
+            </div>
+          </div><!-- Email Box End of icon_box -->
+
+          <!-- Call Box -->
+          <div class="icon_box">
+
+            <div class="icon">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="info">
+              <h4>Call:</h4>
+              <p>
+                +256 785 102650
+              </p>
+            </div>
+          </div><!-- Call Box End of icon_box -->
+
+          <!-- Location Box -->
+          <div class="icon_box">
+
+            <div class="icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="info">
+              <h4>Location:</h4>
+              <p>
+                Mankenke, Mbarara, Uganda
+              </p>
+            </div>
+          </div><!-- Location Box End of icon_box -->
+
+          <!-- Map -->
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15958.45605243426!2d30.67668871609009!3d-0.579835493231513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19d91c9ee564e771%3A0xa1af5ef6f6f47a09!2sMakenke%2C%20Mbarara!5e0!3m2!1sen!2sug!4v1680673627730!5m2!1sen!2sug" width="100%" height="250" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div><!-- End of Map -->
+          
+        </div><!-- End of contact_left col-->
+
+        <!-- Right Col-->
+        <div class="contact_right">
+
+          <form action="">
+            <input type="text" name="name" id="name" placeholder="Your Name">
+            <input type="email" name="email" id="email" placeholder="Your Email">
+            <input type="text" name="subject" id="subject" placeholder="Subject">
+            <textarea name="msg" id="msg" rows="9" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message">
+
+
+          </form>
+          
+        </div><!-- End of contact_right -->
+
+
+      </div><!-- End of contact_row -->
+
+
+    </section>
+    <!--== END of Contact section ==-->
+
+  </main><!-- End of Main --> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Typed.JS File (For typing effect)-->
+    <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+
+
+
+    <!--== Main JS FIle ===-->
+    <script src="./script.js"></script>
+  
+  
+  
+    <!--== FontAwesome JS File (Icone files) ==-->
 </body>
 </html>

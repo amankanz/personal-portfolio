@@ -299,6 +299,9 @@ main {
   gap: 20px;
   margin-top: 25px;
 }
+#about .hide {
+  display: none;
+}
 
 #about .about_col .profile_img {
   height: 310px;
@@ -484,6 +487,9 @@ main {
 /*== Skills section start*/
 #skill {
   padding: 50px 30px;
+}
+#skill .skill-5 {
+  display: none;
 }
 #skill .skill_row {
   margin-top: 35px;
@@ -688,6 +694,9 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 35px;
+}
+#portfolio .port_row .item-3, .item-4, .item-5, .item-7 {
+  display: none
 }
 #portfolio .port_row .port_item {
   position: relative;

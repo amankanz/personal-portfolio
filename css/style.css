@@ -488,9 +488,7 @@ main {
 #skill {
   padding: 50px 30px;
 }
-#skill .skill-5 {
-  display: none;
-}
+
 #skill .skill_row {
   margin-top: 35px;
   display: grid;
